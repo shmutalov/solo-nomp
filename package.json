@@ -12,17 +12,18 @@
     "litecoin",
     "scrypt"
   ],
-  "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+  "homepage": "https://github.com/zzzpotato/equihash-solomining",
   "bugs": {
-    "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+    "url": "https://github.com/zzzpotato/equihash-solomining"
   },
   "license": "GPL-2.0",
   "author": "Matthew Little",
   "contributors": [
     "vekexasia",
-    "TheSeven"
+    "TheSeven",
+    "Potato"
   ],
-  "main": "lib/index.js",
+  "main": "init.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joshuayabut/node-stratum-pool.git"
@@ -31,16 +32,14 @@
     "async": "*",
     "base58-native": "*",
     "bignum": "*",
-    "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
     "body-parser": "^1.17.1",
     "color": "^1.0.3",
     "colors": "^1.1.2",
     "dot": "^1.1.1",
-    "equihashverify": "git+https://github.com/joshuayabut/equihashverify.git",
     "express": "^4.15.2",
     "express-dot-engine": "^1.0.7",
-    "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-    "promise": "*"
+    "promise": "*",
+    "stratum-pool": "git+https://github.com/s-nomp/node-stratum-pool.git"
   },
   "engines": {
     "node": ">=7"

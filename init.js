@@ -5,7 +5,7 @@ var fs = require('fs');
 var cluster = require('cluster');
 var os = require('os');
 
-var Stratum = require('./lib/stratum/index.js')
+var Stratum = require('stratum-pool/lib/index.js');
 var CliListener = require('./lib/workers/cliListener.js');
 var PoolWorker = require('./lib/workers/poolWorker.js');
 var Website = require('./lib/workers/website.js');
