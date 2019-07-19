@@ -2,6 +2,7 @@
 ## (READY FOR TESTING)
 
 Made by the Zclassic community, configuration and documentation is [here](https://zdeveloper.org/equihash-solomining)
+
 Updated/tweaked by Potato from the ZeroClassic community
 
 ![picture alt](http://i.imgur.com/xB9XdVF.png)
