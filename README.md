@@ -1,9 +1,8 @@
 ## Solomining proxy for equihash coins like Zclassic and Zcash.
 ## (READY FOR TESTING)
 
-[![Join the chat at https://gitter.im/equihash-solomining/Lobby](https://badges.gitter.im/equihash-solomining/Lobby.svg)](https://gitter.im/equihash-solomining/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Made by the Zclassic community, configuration and documentation is [here](https://zdeveloper.org/equihash-solomining)
+Updated/tweaked by Potato from the ZeroClassic community
 
 ![picture alt](http://i.imgur.com/xB9XdVF.png)
 
@@ -19,7 +18,7 @@ Install
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n stable
-git clone https://github.com/aayanl/equihash-solomining
+git clone https://github.com/zzzpotato/equihash-solomining
 cd equihash-solomining
 npm update
 npm install
@@ -28,10 +27,6 @@ npm install
 Configure
 -------------
 Go to config.json and change it to your setup. Official documentation is here: [https://zdeveloper.org/equihash-solomining](https://zdeveloper.org/equihash-solomining)
-
-Want to add your own background to the frontend? 
-
-Go to website/public/index.dot and add `style="background-image: url(IMAGEURLHERE)"` to \<body\>. Example: http://i.imgur.com/FXG5wm4.png (NSFW)
 
 Run
 ------------
@@ -46,7 +41,7 @@ Get rid of the node_modules folder then
 npm install
 ```
 
-Differences between this and Z-NOMP
+Differences between this and S-NOMP
 ------------
 * This is meant for solo mining
 * There is no share system; Every "share" is the block solution
