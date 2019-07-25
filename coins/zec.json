@@ -2,11 +2,13 @@
     "name": "zcash",
     "symbol": "zec",
     "algorithm": "equihash",
-
+    "overwinter": true,
+    "sapling": true,
+    "requireShielding": true,
     "payFoundersReward": true,
     "percentFoundersReward": 20,
     "maxFoundersRewardBlockHeight": 849999,
-    "foundersRewardAddressChangeInterval": 17709.3125,
+    "foundersRewardAddressChangeInterval": 17709,
     "vFoundersRewardAddress": [
         "t3Vz22vK5z2LcKEdg16Yv4FFneEL1zg9ojd",
         "t3cL9AucCajm3HXDhb5jBnJK2vapVoXsop3",
@@ -57,5 +59,11 @@
         "t3R3Y5vnBLrEn8L6wFjPjBLnxSUQsKnmFpv",
         "t3Pcm737EsVkGTbhsu2NekKtJeG92mvYyoN"
     ],
-    "peerMagic": "24e92764"
+    "txfee": 0.0004,
+
+    "explorer": {
+        "txURL": "https://explorer.z.cash/tx/",
+        "blockURL": "https://explorer.z.cash/block/",
+        "_comment_explorer": "This is the coin's explorer full base url for transaction and blocks i.e. (https://explorer.coin.com/tx/). The pool will automatically add the transaction id or block id at the end."
+    }
 }
