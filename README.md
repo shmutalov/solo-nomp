@@ -19,8 +19,8 @@ Install
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n stable
-git clone https://github.com/zzzpotato/equihash-solomining
-cd equihash-solomining
+git clone https://github.com/zzzpotato/solo-nomp
+cd solo-nomp
 npm update
 npm install
 ```
