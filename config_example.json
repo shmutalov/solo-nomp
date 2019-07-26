@@ -1,24 +1,35 @@
 {
-    "coin": "zcash_testnet.json",
+    "coin": "zerc.json",
 
-    "address": "tmTrPDwPTJweuwPR7Hgt6u1dN7Vq4tZyuxm",
+    "address": "t1KkX2Zhh1SbJTyw2pfPsEBjAVrbpXwGo8o",
+
+    "cliPort": 17117,
+    "cliServer": "127.0.0.1",
 
     "ports": {
-        "3032": {
-            "tls": false
+        "1234": {
+            "diff": 0.05,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 0.04,
+                "maxDiff": 36,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
         }
     },
 
     "tlsOptions": {
         "enabled": false,
-        "serverKey": "~/certs/server-privatekey.pem",
-        "serverCert": "~/certs/server-cert.pem",
-        "ca": "~/certs/server-csr.pem"
+        "serverKey": "",
+        "serverCert": "",
+        "ca": ""
     },
 
-    "blockRefreshInterval": 100,
+    "blockRefreshInterval": 500,
     "jobRebroadcastTimeout": 55,
-    "connectionTimeout": 6000000,
+    "connectionTimeout": 600,
     "emitInvalidBlockHashes": false,
     "tcpProxyProtocol": false,
     "banning": {
@@ -28,6 +39,8 @@
         "checkThreshold": 500,
         "purgeInterval": 300
     },
+    "poolHex": "",
+    "_poolHex_comment": "Set this HEX value using a template of '<pool name> <pool link>' and provide it to various explorer webmasters.",
 
     "daemons": [{
         "host": "127.0.0.1",
@@ -54,8 +67,4 @@
         "forks": "auto"
     },
 
-    "blockNotifyListener": {
-        "enabled": false,
-        "port": 17117
-    }
 }
