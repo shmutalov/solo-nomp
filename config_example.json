@@ -4,7 +4,7 @@
     "address": "",
 
     "rewardRecipients": {
-        "": 0.2
+        "": 0
     },
     "_rewardRecipients_comment": "Set this address and value to act as a % fee (0.2 = 0.2% fee) of the block reward",
 
