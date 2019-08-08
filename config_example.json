@@ -1,11 +1,12 @@
 {
     "coin": "zerc.json",
 
-    "address": "t1KkX2Zhh1SbJTyw2pfPsEBjAVrbpXwGo8o",
+    "address": "",
 
     "rewardRecipients": {
-        "t1XgH8LchVy6kPTGBshDdQgJWbSPcRQWsNN": 1
+        "": 0.2
     },
+    "_rewardRecipients_comment": "Set this address and value to act as a % fee (0.2 = 0.2% fee) of the block reward",
 
     "cliPort": 17117,
     "cliServer": "127.0.0.1",
