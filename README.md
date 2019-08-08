@@ -1,7 +1,7 @@
-## Solomining proxy for equihash coins like Zclassic and Zcash.
+## Solomining proxy for equihash coins like Zclassic, Zcash, and ZeroClassic.
 ## (READY FOR TESTING)
 
-Made by the Zclassic community, configuration and documentation is [here](https://zdeveloper.org/equihash-solomining)
+Made by the Zclassic community, configuration and documentation is ~~[here](https://zdeveloper.org/equihash-solomining)~~
 
 Updated/tweaked by Potato from the ZeroClassic community
 
@@ -9,7 +9,7 @@ Updated/tweaked by Potato from the ZeroClassic community
 
 Requirements
 ------------
-* node v7+
+* node
 * coin daemon
 
 Install
@@ -27,12 +27,18 @@ npm install
 
 Configure
 -------------
-Go to config.json and change it to your setup. Official documentation is here: [https://zdeveloper.org/equihash-solomining](https://zdeveloper.org/equihash-solomining)
+Rename config_example.json and change it to your setup. Official documentation is here: ~~[https://zdeveloper.org/equihash-solomining](https://zdeveloper.org/equihash-solomining)~~
 
-Run
+Start
 ------------
 ```bash
 npm start
+```
+
+PM2 Start
+------------
+```bash
+pm2 start init.js --name solo
 ```
 
 Update
@@ -40,21 +46,24 @@ Update
 Get rid of the node_modules folder then 
 ```bash
 npm install
+git pull
 ```
 
 Differences between this and S-NOMP
 ------------
 * This is meant for solo mining
 * There is no share system; Every "share" is the block solution
-* No payments
+* No payment processor, you will need to shield rewards to spend them yourself
 
 Upcoming Feautures
 -------------
 * More API
+* Web interface changes
 
 Support
 -------------
-https://gitter.im/equihash-solomining
+* ~~https://gitter.im/equihash-solomining~~
+* Potato#9721 on Discord
 
 License
 -------
