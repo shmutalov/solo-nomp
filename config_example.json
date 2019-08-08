@@ -69,6 +69,6 @@
     "clustering": {
         "enabled": true,
         "forks": "auto"
-    },
+    }
 
 }
