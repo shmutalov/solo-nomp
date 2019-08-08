@@ -43,7 +43,7 @@ int main(int argc, char **argv)
     if (argc < 3)
     {
         // print help
-        printf("ZNOMP pool block notify\n usage: <host:port> <coin> <block>\n");
+        printf("NOMP pool block notify\n usage: <host:port> <coin> <block>\n");
         exit(1);
     }
 

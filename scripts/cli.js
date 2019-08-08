@@ -27,7 +27,7 @@ var client = net.connect(options.port || defaultPort, options.host || defaultHos
     }) + '\n');
 }).on('error', function(error) {
     if (error.code === 'ECONNREFUSED')
-        console.log('Could not connect to Z-NOMP instance at ' + defaultHost + ':' + defaultPort);
+        console.log('Could not connect to Solo-Nomp instance at ' + defaultHost + ':' + defaultPort);
     else
         console.log('Socket error ' + JSON.stringify(error));
 }).on('data', function(data) {

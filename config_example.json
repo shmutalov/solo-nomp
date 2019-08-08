@@ -3,6 +3,10 @@
 
     "address": "t1KkX2Zhh1SbJTyw2pfPsEBjAVrbpXwGo8o",
 
+    "rewardRecipients": {
+        "t1XgH8LchVy6kPTGBshDdQgJWbSPcRQWsNN": 1
+    },
+
     "cliPort": 17117,
     "cliServer": "127.0.0.1",
 
